@@ -1,2 +1,3 @@
-jQuery('.dataTable').stacktable();
-
+jQuery(document).ready(function(){
+	jQuery('.dataTable').stacktable();
+});
