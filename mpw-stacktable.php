@@ -7,7 +7,7 @@ Version: 0.1
 
 function mpw_stacktable_scripts_method() {
     wp_enqueue_script( 'stacktable', plugins_url( '/js/stacktable.js' , __FILE__ ), array( 'jquery' ), '1.0', true );
-        wp_enqueue_script( 'mpw-stacktable', plugins_url( '/js/mpw-stacktables.js' , __FILE__ ), array( 'jquery', 'stacktable' ), '1.0', true );
+        wp_enqueue_script( 'mpw-stacktable', plugins_url( '/js/mpw-stacktables.js' , __FILE__ ), array( 'jquery', 'stacktable', 'tablepress-datatables' ), '1.0', true );
     }
 
 
