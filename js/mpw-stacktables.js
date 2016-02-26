@@ -1,3 +1,3 @@
 jQuery(document).ready(function(){
-	jQuery('.datatable').stacktable();
+	jQuery('.dataTable').stacktable();
 });
